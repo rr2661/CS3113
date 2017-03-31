@@ -24,6 +24,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h">
@@ -32,21 +38,25 @@
     <ClInclude Include="ShaderProgram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="fragment.glsl" />
-    <None Include="vertex.glsl" />
     <None Include="fragment_textured.glsl" />
     <None Include="vertex_textured.glsl" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="emoji.png">
+    <Image Include="font1.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="laserGreenShot.png">
+    <Image Include="Tiles.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="laserRedShot.png">
+    <Image Include="characters_1.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

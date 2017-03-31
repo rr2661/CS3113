@@ -74,24 +74,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="ShaderProgram.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="fragment.glsl" />
     <None Include="fragment_textured.glsl" />
-    <None Include="vertex.glsl" />
     <None Include="vertex_textured.glsl" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="emoji.png" />
-    <Image Include="laserGreenShot.png" />
-    <Image Include="laserRedShot.png" />
+    <Image Include="characters_1.png" />
+    <Image Include="font1.png" />
+    <Image Include="Tiles.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
